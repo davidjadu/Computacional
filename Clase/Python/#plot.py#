@@ -19,4 +19,4 @@ plt.imshow(a, cmap="bone")
 
 filename = "random_plane2"
 plt.savefig(filename+'.pdf', format = 'pdf', transparent= True)
-Plt.close()
+plt.close()
