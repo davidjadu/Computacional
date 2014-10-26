@@ -6,7 +6,7 @@ n_y=512
 
 a=np.random.random((n_x,n_y))
 
-fig=plt.figure()
+ig=plt.figure()
 ax=plt.axes()
 
 index = np.where(a<0.5)
