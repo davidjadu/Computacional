@@ -21,7 +21,7 @@ int main(int argc, char **argv){
 
   int i;
   char filename[100];
-  sprintf(filename, "poblaciones_%f_%f.dat", x,y);
+  sprintf(filename, "Data/poblaciones_%d_%d.dat", (int)x,(int)y);
   FILE *out = fopen(filename,"w");
   fprintf(out, "%f %f %f\n", t,x,y);
 
