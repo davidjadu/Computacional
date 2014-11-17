@@ -9,7 +9,7 @@ random.data: a.out
 a.out: random.c
 	cc random.c
 
-clear:
+clean:
 	rm -f random.data
 	rm -f graph.pdf
 	rm -f a.out
